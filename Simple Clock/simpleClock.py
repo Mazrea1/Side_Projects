@@ -46,7 +46,7 @@ while True:
         mins = 0
         hours += 1
     if hours == 13:
-        hr = 1
+        hours = 1
         if amPm == "PM":
             amPm = "AM"
         elif amPm == "AM":
