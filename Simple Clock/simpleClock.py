@@ -2,8 +2,6 @@ import time
 import turtle
 import datetime as dt
 
-from yt_dlp.extractor.lazy_extractors import XMinusIE
-
 t1 = turtle.Turtle()
 t2 = turtle.Turtle()
 
