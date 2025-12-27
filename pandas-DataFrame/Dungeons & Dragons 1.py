@@ -16,4 +16,9 @@ characters_data = {
 # Create the DataFrame
 characters = pd.DataFrame(characters_data)
 
-print(type(characters['class']))
+character_names = characters['name']
+print(type(character_names))
+basic_stats = characters[['name', 'level', 'hp']]
+print(basic_stats)
+removed_alignment = characters.drop('alignment', axis=1)
+print(removed_alignment)
