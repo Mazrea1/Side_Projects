@@ -16,7 +16,7 @@ characters_data = {
 # Create the DataFrame
 characters = pd.DataFrame(characters_data)
 
-
+#Practice
 high_level = characters[characters['level'] > 5]
 print(high_level)
 halfling_bards = characters[
